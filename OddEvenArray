@@ -1,0 +1,48 @@
+
+/**
+ * A program that let the user input 10 numbers and store it in an array and identify the 
+ * numbers if it is ODD or EVEN: if it is EVEN add, else Multiply
+ * 
+ * @author (artimre098) 
+ * @version (9/25/17)
+ */
+import java.util.*;
+public class OddEvenArray
+{
+    public static void main(String [] args){
+
+        int x[] = new int[10];
+        int sum = 0;
+        int mul = 1;
+        Scanner input = new Scanner(System.in);
+
+        for(int a = 0; a < x.length; a++){
+            System.out.print("Enter a number: ");
+            x[a] = input.nextInt();
+            if((x[a]%2) == 0){
+                sum += x[a];
+            }else{
+                mul *= x[a];
+            }
+
+        }
+        System.out.print('\u000C'); // use to clear the screen
+
+        System.out.print("EVEN Numbers: ");
+        for(int b = 0; b < x.length; b ++){
+            if((x[b]%2) == 0){
+                System.out.print(x[b] + "  ");
+            }
+        }
+        System.out.println(" = " + sum);
+        System.out.print("ODD Numbers: ");
+        for(int b = 0; b < x.length; b ++){
+            if((x[b]%2) != 0){
+                System.out.print(x[b] + "  ");
+            }
+        }
+
+        System.out.println(" = " + mul);
+
+    }
+}
