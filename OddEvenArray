@@ -28,14 +28,14 @@ public class OddEvenArray
         }
         System.out.print('\u000C'); // use to clear the screen
 
-        System.out.print("EVEN Numbers: ");
+        System.out.print("EVEN Numbers: "); // output all even numbers
         for(int b = 0; b < x.length; b ++){
             if((x[b]%2) == 0){
                 System.out.print(x[b] + "  ");
             }
         }
         System.out.println(" = " + sum);
-        System.out.print("ODD Numbers: ");
+        System.out.print("ODD Numbers: "); // output all ODD numbers
         for(int b = 0; b < x.length; b ++){
             if((x[b]%2) != 0){
                 System.out.print(x[b] + "  ");
