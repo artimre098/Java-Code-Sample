@@ -20,7 +20,7 @@ public class maxEnd3
         }
         System.out.print('\u000C'); // to clear the screen
         System.out.print("Array: ");
-        for(int x = 0; x < arr.length ; x ++){
+        for(int x = 0; x < arr.length ; x ++){ // to output the elements of your array
             System.out.print(arr[x] + " ");
         }
         int temp = 0;
