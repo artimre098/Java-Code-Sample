@@ -17,8 +17,8 @@ public class sameFirstLast
             int arrLength = in.nextInt();
             System.out.println(" ");
             
-            int arr [] = new int [arrLength];
-            System.out.println("Enter the elements of your array");
+            int arr [] = new int [arrLength]; // the user will enter the length of our array
+            System.out.println("Enter the elements of your array"); // the user will enter elements
             for(int x = 0 ; x < arr.length ; x++){
                 System.out.print("input> ");
                 arr[x] = in.nextInt();
