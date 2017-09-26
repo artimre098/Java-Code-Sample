@@ -14,7 +14,7 @@ public class OddEvenArray
         int x[] = new int[10];
         int sum = 0;
         int mul = 1;
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); // declare Scanner
 
         for(int a = 0; a < x.length; a++){
             System.out.print("Enter a number: ");
